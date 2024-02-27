@@ -1,0 +1,38 @@
+{
+  "name": "FoodDelivery",
+  "displayName": "Food Delivery",
+  "expo": {
+    "name": "Food Delivery",
+    "slug": "Food Delivery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/logo/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/logo/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/logo/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mohith.food_delivery"
+    },
+    "web": {
+      "favicon": "./src/assets/logo/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3dd21407-71e2-4762-9726-f4a55c7bac3c"
+      }
+    }
+  }
+}
